@@ -1,0 +1,20 @@
+{
+  "name": "settermjd/antora-nav-to-asciidoctor-pdf-config-line-converter",
+  "require": {
+    "php": "^7.2",
+    "phpunit/phpunit": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "LineConverter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LineConverterTest\\": "test/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --colors=always"
+  }
+}
