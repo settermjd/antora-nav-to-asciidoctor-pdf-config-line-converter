@@ -1,5 +1,27 @@
 {
   "name": "settermjd/antora-nav-to-asciidoctor-pdf-config-line-converter",
+  "description": "Converts an Antora navigation link to an asciidoctor-pdf config line",
+  "type": "library",
+  "keywords": [
+    "antora",
+    "asciidoctor",
+    "asciidoctor",
+    "asciidoctor-pdf"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Matthew Setter",
+      "email": "matthew@matthewsetter.com",
+      "homepage": "https://matthewsetter.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "matthew@matthewsetter.com",
+    "issues": "https://github.com/settermjd/antora-nav-to-asciidoctor-pdf-config-line-converter/issues/new"
+  },
   "require": {
     "php": "^7.2",
     "phpunit/phpunit": "^8.2"
